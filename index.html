@@ -1,11 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript Practice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1 class="text-center m-3 p-3">JavaScript Practice</h1>
+    <div class="container-fluid d-flex justify-content-center align-content-center mx-auto p-4">
+      <div class="row">
+        <div class="col col-md-4 col-sm-12 col-lg-12 mx-auto p-3">
+          <div class="card">
+          <div class="card-header">
+            <h5>The Math Object</h5>
+          <div class="card-body">
+<!-- SANDBOX CODE -->
+
+
+            <p class="lead">A built in JS function to solve math equations</p>
+           <div class="container">
+            <div id="mathConsole" class="lead fw-bold"></div>
+            <div class="row">
+              <div class="col-6">
+                <h4>Square Root of 12</h4>
+              </div>
+              <div class="col-6">
+                <div id="square" class="lead fw-bold"></div>
+              </div>
+              <div class="col-6">
+                <h4>Absolute value of -500</h4>
+              </div>
+              <div class="col-6">
+                <div id="absolute" class="lead fw-bold"></div>
+              </div>
+              <div class="col-6">
+                <h4>Rounding 4.6</h4>
+                <small>Math.ceil() will round up. <br>
+                  Math.floor() will round down.</small>
+              </div>
+              <div class="col-6">
+                <div id="round" class="lead fw-bold"></div>
+              </div>
+              <div class="col-6">
+                <h4>Generate a random number</h4>
+              </div>
+              <div class="col-6">
+                <div id="random" class="lead fw-bold"></div>
+              </div>
+              <div class="col-6">
+                <h4>Random number from 1-10 rounded down</h4>
+              </div>
+              <div class="col-6">
+                <div id="down" class="lead fw-bold"></div>
+              </div>
+            </div>
+           </div>
+
+
+<!-- SANDBOX CODE END -->
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="col col-md-4 col-sm-12 col-lg-12 mx-auto p-3">
+        <div class="card ">
+        <div class="card-header">
+          <h5>
+            Number Challenge
+          </h5>
+        <div class="card-body p-5">
+          <ul class="lead">
+            <li>Create a variable called x that is a random number between 1 and 100</li>
+            <li>Create a variable called y that is a random number between 1 and 50</li>
+            <li>Create a variable for the sum, difference, product , quotient and remainder of x and y along with operator and result</li>
+          </ul>
+          <div class="row d-flex flex-row list-group">
+            <p class="lead text-center">The value of X is : <span id="num1" class="fw-bold"></span>. <br>The value of Y is : <span id="num2" class="fw-bold"></span>.</p>
+            <div class="col col-sm-6">
+              <ul >
+                <li class="list-group-item">Sum</li>
+                <li class="list-group-item">Difference</li>
+                <li class="list-group-item">Product</li>
+                <li class="list-group-item">Quotient</li>
+                <li class="list-group-item">Remainder</li>
+              </ul>
+            </div>
+            <div class="col col-sm-6">
+              <ul >
+                <li class="list-group-item" id="sum"></li>
+                <li class="list-group-item" id="difference"></li>
+                <li class="list-group-item" id="product"></li>
+                <li class="list-group-item" id="quotient"></li>
+                <li class="list-group-item" id="remainder"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="col col-md-4 col-sm-12 col-lg-12 mx-auto p-3">
+      <div class="card">
+      <div class="card-header">
+        <h5>Dates & Times</h5>
+      <div class="card-body">
+        <p class="lead">Getting date and time in different formats. "Check Comments"</p>
+        <div id="date"></div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="col col-md-4 col-sm-12 col-lg-12 mx-auto p-3">
+    <div class="card">
+    <div class="card-header">
+      <h5>Dates & Times Methods</h5>
+    <div class="card-body">
+      <p class="lead">Date Object Methods and the DateTimeAPI</p>
+      <div id="dateParts"></div>
+    </div>
+  </div>
+  </div>
+</div>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
 </html>
